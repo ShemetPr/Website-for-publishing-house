@@ -1,0 +1,126 @@
+body {
+    margin: 0 auto;
+    width: 1200px;
+    font-family: 'Montserrat', sans-serif;
+}
+:root {
+    --red: #f50e37;
+    --black: #121212;
+    --white: #ffffff;
+}
+header {
+    background-color: var(--white) ;
+    color: var(--black);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 2em;
+}
+nav a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0em 1em;
+}
+nav a:hover {
+    color: var(--red);
+}
+.breadcrumbs {
+    font-size: 12px;
+    color: #f50e37;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+.num1 {
+    color: var(--red) !important;
+    text-decoration: none;
+}
+.num2 {
+    color: #aaaaaa !important;
+}
+.logo-div {
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.company-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.n {
+    display: block;
+    font-size: 26px;
+    letter-spacing: 0.3em;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+.n2 {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+}
+.logo-image{
+    width: 60px;
+    display: block;
+}
+ .number-1 {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--red);
+ }
+ .titles {
+     font-size: 14px;
+ }
+ .input-div {
+    padding: 0.3em 1em;
+}
+.input {
+    width: 250px;
+    padding: 0.5em 0;
+}
+#submit {
+    padding: 0.5em 5.4em;
+    background-color: var(--red);
+    color: var(--white);
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    transition: 1s;
+}
+#submit:hover {
+    color: var(--black);
+}
+select {
+    padding: 0.6em 1em;
+}
+.block-404 {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 {
+    color: var(--red);
+    text-align: center;
+    font-weight: bold;
+}
+p {
+    font-size: 16px;
+    width: 400px;
+    text-align: center;
+}
+p a {
+    text-decoration: none;
+    color: #f50e37;
+    font-weight: bold;
+    cursor: pointer;
+}
